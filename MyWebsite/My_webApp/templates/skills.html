@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}Skills{% endblock %}
+{% block content %}
+
+ <!-- Include Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+ <!-- Include Font Awesome CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .container{
+        margin:0% 30%;
+        width: 40%;
+     }
+     .container_skills{
+        background-color:rgb(6, 72, 95);
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        text-align: center;
+        padding: 4px;
+        margin: 2px;
+
+     }
+     .container_skills1{
+        background-color:rgb(132, 222, 225);
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        text-align: center;
+        padding: 4px;
+        margin: 2px;
+     }
+</style>
+<section class="container">
+    <section class="container_skills">
+        <h1>MY SKILLS</h1>
+            <p>I am a full stuck Web developer and I use
+            my skills to solve different problems, 
+            where DJANGO is a Web framework for Python I use
+           </p>
+    </section>
+    <section class="container_skills1">
+        <h1>MY SKILLS</h1>
+        <p>I am a computer and Mathematics teacher as I introduced before, I teach 
+            Secondary School especially for Advanced level in pure Mathematics 
+            and computer             
+           
+       </p>
+    </section>
+
+</section>
+
+ <!-- Include Bootstrap, Popper, and jQuery scripts -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ {% endblock %}
